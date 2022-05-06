@@ -7,7 +7,7 @@ import WebpackAliasSyncPlugin from 'webpack-alias-sync-plugin'
 const p = str => path.resolve(__dirname, str)
 
 const module = cfg => {
-  cfg.entry = './components/pcm-wave/index.js'
+  cfg.entry = './components/record-test/index.js'
 
   cfg.devtool = 'source-map'
   cfg.mode = 'development'

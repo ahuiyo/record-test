@@ -1,6 +1,6 @@
 {
-  "name": "preact-pcm-wave",
-  "short_name": "preact-pcm-wave",
+  "name": "record-test",
+  "short_name": "record-teste",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
