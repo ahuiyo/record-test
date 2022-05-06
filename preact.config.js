@@ -15,7 +15,7 @@ const module = cfg => {
 
   cfg.output = {
     path: p('./lib'),
-    filename: 'pc-pcm-wave.js',
+    filename: 'record-test.js',
     libraryTarget: 'umd',
   }
   cfg.externals = ['preact/hooks', 'preact']
@@ -23,8 +23,8 @@ const module = cfg => {
   cfg.plugins = [
     ...cfg.plugins.filter(i => i.constructor.name === 'ProgressPlugin'),
     new MiniCssExtractPlugin({
-      filename: 'pc-pcm-wave.css',
-      chunkFilename: 'pc-pcm-wave.css',
+      filename: 'record-test.css',
+      chunkFilename: 'record-test.css',
     }),
     new ProvidePlugin({
       h: ['preact', 'h'],
@@ -51,7 +51,7 @@ export default (config, env) => {
 
   config.node.process = 'mock'
   config.node.Buffer = true
-  env.isProd && (config.output.publicPath = '/pc-pcm-wave/')
+  env.isProd && (config.output.publicPath = '/record-test/')
 
   config.plugins.push(new WebpackAliasSyncPlugin())
   config.module.rules.push({

@@ -1,10 +1,10 @@
-# pc-pcm-wave
+# record-test
 
-###  基于  https://github.com/deepkolos/pc-pcm-wave  修改
+###  基于  https://github.com/deepkolos/record-test  修改
 
-![https://travis-ci.com/deepkolos/pc-pcm-wave](https://travis-ci.com/deepkolos/pc-pcm-wave.svg?branch=master)
-![](https://img.shields.io/npm/dt/pc-pcm-wave.svg)
-![](https://img.shields.io/npm/v/pc-pcm-wave.svg)
+![https://travis-ci.com/deepkolos/record-test](https://travis-ci.com/deepkolos/record-test.svg?branch=master)
+![](https://img.shields.io/npm/dt/record-test.svg)
+![](https://img.shields.io/npm/v/record-test.svg)
 
 一个简单的`pcm`波纹效果, 适用于`preact`项目, `hooks`编写, 有如下特性
 
@@ -14,9 +14,9 @@
 
 # Live Demo
 
-[Link](https://deepkolos.github.io/pc-pcm-wave/)
+[Link](https://deepkolos.github.io/record-test/)
 
-![demo](https://raw.githubusercontent.com/deepkolos/pc-pcm-wave/master/demo.webp)
+![demo](https://raw.githubusercontent.com/deepkolos/record-test/master/demo.webp)
 
 # Props
 

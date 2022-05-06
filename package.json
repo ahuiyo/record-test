@@ -1,8 +1,8 @@
 {
-  "name": "pc-pcm-wave",
+  "name": "record-test",
   "version": "1.0.0",
   "description": "preact pcm wave player",
-  "main": "lib/pc-pcm-wave.js",
+  "main": "lib/record-test.js",
   "scripts": {
     "start": "per-env",
     "start:production": "npm run -s serve",
@@ -12,7 +12,8 @@
     "serve": "preact build --sw false --no-prerender --esm false && sirv build --cors --single",
     "dev": "preact watch --sw false --no-prerender",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "license": "MIT",
@@ -22,6 +23,7 @@
     "enzyme-adapter-preact-pure": "^2.2.0",
     "eslint": "^6.8.0",
     "eslint-config-preact": "^1.1.1",
+    "gh-pages": "^3.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.5.4",
     "jest-preset-preact": "^1.0.0",

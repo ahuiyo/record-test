@@ -14,8 +14,8 @@ import BtnIconLabel from './btn-icon-label'
 import shortTimeEnergy from 'lib/shortTimeEnergy'
 import { useRef, useState, useEffect } from 'preact/hooks'
 
-// import PCMWave from '../../../lib/pc-pcm-wave.js'
-// import '../../../lib/pc-pcm-wave.css'
+// import PCMWave from '../../../lib/record-test.js'
+// import '../../../lib/record-test.css'
 
 const MaxRecordTime = 15000
 const NoiseVoiceWatershedWave = 2
@@ -151,7 +151,7 @@ function Home() {
 
   return (
     <div class={style.home}>
-      <h1 className={style.title}>PC-PCM-Wave</h1>
+      <h1 className={style.title}>record-test</h1>
 
       <div className={style.card}>
         <div className={style.waveCan}>

@@ -24,7 +24,7 @@
         "preact-css-transition-group\\*"
       ],
       "preact-cli/async-component": [
-        "E:\\read-coding\\pc-pcm-wave\\node_modules\\@preact\\async-loader\\async.js"
+        "E:\\read-coding\\record-test\\node_modules\\@preact\\async-loader\\async.js"
       ],
       "mock/*": [
         "mocks\\*"
